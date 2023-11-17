@@ -1,0 +1,41 @@
+/* Estilos para Dropdown y Dropdown Content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #3d73a5;
+  border: 3px ridge #0b1c3a;
+  padding: 8px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.dropdown:hover {
+  background-color: #3c8cd6; /* Cambia el color al pasar el ratón */
+}
+
+.dropdown-content {
+  display: contents;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    background-color: #ffffff;
+    border: 1px ridge #555555;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para las opciones dentro del dropdown */
+.dropdown-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li {
+  padding: 8px;
+    border: 1px ridge #3753a2;
+    cursor: pointer;
+}
+
+.dropdown-content li:hover {
+  background-color: #6eb3f3; /* Cambia el color al pasar el ratón */
+}
